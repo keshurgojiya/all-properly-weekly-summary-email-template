@@ -4,11 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AllProperly Task Digest</title>
+  <title>AllProperly Multi-Property Weekly Summary</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"
     type="text/css">
   <style>
-    /* Mobile responsive styles */
     @media only screen and (max-width:600px) {
       .container {
         width: 100% !important;
@@ -30,14 +29,12 @@
   </style>
 </head>
 
-<body style="background:#475567; margin:0; padding:20px; font-family:Nunito,Arial, sans-serif;">
+<body style="background:#475567; margin:0; padding:20px; font-family:Nunito,Arial,sans-serif;">
 
-  <!-- Wrapper -->
   <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="center">
 
-        <!-- Container -->
         <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="650" class="container"
           style="max-width:650px; background:#ffffff; border:1px solid #e4e9f0; border-radius:10px; padding:20px;">
 
@@ -51,145 +48,264 @@
             </td>
           </tr>
 
-          <!-- Headline -->
-          <tr>
-            <td align="center" style="color:#475567; font-size:28px; font-weight:bold; padding:20px 20px 10px;">
-              Your Weekly Task Digest
-            </td>
-          </tr>
-
           <!-- Hero -->
           <tr>
             <td align="center" style="padding:10px 20px;">
-              <img src="images/reminder.png" alt="Task Digest Reminder" width="500"
+              <img src="images/bell.png" alt="Weekly Property Summary" width="140"
                 style="max-width:100%; display:block; border:0; outline:none; text-decoration:none;">
+            </td>
+          </tr>
+
+          <!-- Headline -->
+          <tr>
+            <td align="center" style="color:#475567; font-size:28px; font-weight:bold; padding:20px 20px 10px;">
+              Your Weekly Home Summary
             </td>
           </tr>
 
           <!-- Intro -->
           <tr>
-            <td align="center" style="color:#475567; font-size:16px; line-height:24px; padding:20px 30px;">
-              Hi <strong>Brandan</strong>, here’s a quick overview of your property tasks this week.<br>
-              Staying on top of maintenance helps you avoid costly surprises and keeps your home running smoothly.
+            <td align="center" style="color:#475567; font-size:16px; line-height:24px; padding:0px 30px 10px;">
+              Here's what's been happening across your properties this week.
             </td>
           </tr>
 
-          <!-- Summary Stats -->
           <tr>
-            <td style="padding:0 20px 30px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
-                style="background:#f5f8f6; border:1px solid #e4e9f0; border-radius:10px;">
+            <td style="padding: 20px 0;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; overflow: hidden;">
+
+                <!-- Task Summary Cards -->
                 <tr>
-                  <td class="stack-column" align="center" width="33.33%" style="padding:20px;">
-                    <div style="font-size:24px; font-weight:bold; color:#475567;">3</div>
-                    <div style="font-size:14px; color:#475567;">Upcoming</div>
-                  </td>
-                  <td class="stack-column" align="center" width="33.33%" style="padding:20px;">
-                    <div style="font-size:24px; font-weight:bold; color:#d16666;">2</div>
-                    <div style="font-size:14px; color:#475567;">Overdue</div>
-                  </td>
-                  <td class="stack-column" align="center" width="33.33%" style="padding:20px;">
-                    <div style="font-size:24px; font-weight:bold; color:#7baa98;">5</div>
-                    <div style="font-size:14px; color:#475567;">Completed</div>
+                  <td style="padding: 0 20px 30px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                      <tr>
+                        <!-- Completed Tasks -->
+                        <td style="width: 33.33%; padding: 10px; text-align: center; vertical-align: top;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="text-align: center;">
+                                <p style="margin: 0 0 8px; font-size: 16px; color: #E5B26B; font-weight: 600;">Completed
+                                  Tasks</p>
+                                <p style="margin: 0; font-size: 32px; font-weight: 700; color: #323C47;">18</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+
+                        <!-- Overdue Tasks -->
+                        <td style="width: 33.33%; padding: 10px; text-align: center; vertical-align: top;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="text-align: center;">
+                                <p style="margin: 0 0 8px; font-size: 16px; color: #D36666; font-weight: 600;">Overdue
+                                  Tasks</p>
+                                <p style="margin: 0; font-size: 32px; font-weight: 700; color: #323C47;">3</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+
+                        <!-- Upcoming Tasks -->
+                        <td style="width: 33.33%; padding: 10px; text-align: center; vertical-align: top;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="text-align: center;">
+                                <p style="margin: 0 0 8px; font-size: 16px; color: #3c6471; font-weight: 600;">Upcoming
+                                  Tasks</p>
+                                <p style="margin: 0; font-size: 32px; font-weight: 700; color: #323C47;">7</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
+
+                <!-- Property Section -->
+                <tr>
+                  <td style="padding: 0 20px 20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                      style="background-color: #f9fafb; border-radius: 8px; padding: 20px;">
+
+                      <!-- Property Header -->
+                      <tr>
+                        <td>
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="vertical-align: middle; width: 40px;">
+                                <svg width="32" height="32" viewBox="0 0 32 32" style="display: block;">
+                                  <path d="M16 4 L4 12 L4 28 L12 28 L12 20 L20 20 L20 28 L28 28 L28 12 Z" fill="#F4B860"
+                                    stroke="none" />
+                                </svg>
+                              </td>
+                              <td style="vertical-align: middle;">
+                                <h2 style="margin: 0; font-size: 24px; font-weight: 700; color: #475567;">Property Name
+                                </h2>
+                              </td>
+                              <td style="vertical-align: middle; text-align: right;">
+                                <p style="margin: 0; font-size: 32px; font-weight: 700; color: #475567;">60%</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Address -->
+                      <tr>
+                        <td style="padding-bottom: 10px;">
+                          <p style="margin: 0; font-size: 16px; color: #475567;">1234 Oak Street, Boise ID</p>
+                        </td>
+                      </tr>
+
+                      <!-- Progress Bar -->
+                      <tr>
+                        <td style="padding-bottom: 15px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td
+                                style="background-color: #e5e7eb; border-radius: 10px; height: 8px; overflow: hidden;">
+                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="60%">
+                                  <tr>
+                                    <td style="background-color: #86BCAA; height: 8px; border-radius: 10px;"></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Task Stats -->
+                      <tr>
+                        <td style="padding-bottom: 8px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="width: 24px; vertical-align: top; padding-right: 8px;">
+                                <svg width="20" height="20" viewBox="0 0 20 20" style="display: block;">
+                                  <rect x="3" y="3" width="14" height="14" rx="2" fill="#F4B860" />
+                                  <path d="M6 10 L9 13 L14 7" stroke="#ffffff" stroke-width="2" fill="none" />
+                                </svg>
+                              </td>
+                              <td style="vertical-align: top;">
+                                <p style="margin: 0; font-size: 15px; color: #475567;">3 tasks completed this week</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="padding-bottom: 8px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="width: 24px; vertical-align: top; padding-right: 8px;">
+                                <svg width="20" height="20" viewBox="0 0 20 20" style="display: block;">
+                                  <path d="M10 2 L12 8 L18 8 L13 12 L15 18 L10 14 L5 18 L7 12 L2 8 L8 8 Z"
+                                    fill="#F59E0B" />
+                                </svg>
+                              </td>
+                              <td style="vertical-align: top;">
+                                <p style="margin: 0; font-size: 15px; color: #475567;">1 overdue task</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="padding-bottom: 15px;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                              <td style="width: 24px; vertical-align: top; padding-right: 8px;">
+                                <svg width="20" height="20" viewBox="0 0 20 20" style="display: block;">
+                                  <circle cx="10" cy="10" r="7" fill="#9CA3AF" />
+                                </svg>
+                              </td>
+                              <td style="vertical-align: top;">
+                                <p style="margin: 0; font-size: 15px; color: #475567;">2 upcoming (next 7 days)</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Task List -->
+                      <tr>
+                        <td style="padding-bottom: 8px;">
+                          <p style="margin: 0; font-size: 15px; color: #475567; font-weight: 500;">Change air filter —
+                            due Friday</p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td style="padding-bottom: 15px;">
+                          <p style="margin: 0; font-size: 15px; color: #475567; font-weight: 500;">Check smoke detectors
+                            — due Tuesday</p>
+                        </td>
+                      </tr>
+
+                      <!-- View All Tasks Button -->
+                      <tr>
+                        <td style="text-align: right;">
+                          <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                            style="margin-left: auto;">
+                            <tr>
+                              <td
+                                style="background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 20px;">
+                                <a href="#"
+                                  style="display: inline-block; color: #475567; text-decoration: none; font-size: 14px; font-weight: 600;">View
+                                  All Tasks</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Encouragement Message -->
+                <tr>
+                  <td style="padding: 10px 20px 20px; text-align: center;">
+                    <p style="margin: 0; font-size: 15px; color: #475567; line-height: 1.6;">Nice work keeping your
+                      homes in proper order this week. You've got this</p>
+                  </td>
+                </tr>
+
+                <!-- CTA Button -->
+                <tr>
+                  <td style="padding: 10px; text-align: center;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;">
+                      <tr>
+                        <td style="background-color: #86BCAA; border-radius: 8px; padding: 14px 32px;">
+                          <a href="#"
+                            style="display: inline-block; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 600;">Open
+                            My Dashboard</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
               </table>
             </td>
           </tr>
-
-          <!-- Task List -->
-          <tr>
-            <td style="padding:0 20px 20px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
-                style="background:#f5f8f6; border:1px solid #e4e9f0; border-radius:10px;">
-
-                <!-- Section Title -->
-                <tr>
-                  <td style="padding:20px; font-size:16px; color:#475567; font-weight:bold; text-align:left;">
-                    Tasks to focus on this week:
-                  </td>
-                </tr>
-
-                <!-- Example Task Row 1 -->
-                <tr>
-                  <td style="padding:15px 20px; font-size:15px; color:#475567; border-top:1px solid #e4e9f0;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td width="40" valign="top" style="padding-right:15px;">
-                          <img src="images/filter.png" alt="Air Filter" width="40"
-                            style="display:block; border:0; outline:none; text-decoration:none;">
-                        </td>
-                        <td valign="middle" style="font-size:15px; color:#475567;">
-                          <strong>Replace HVAC Filter</strong> – Due: Sep 29, 2025
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
-                <!-- Example Task Row 2 (Overdue) -->
-                <tr>
-                  <td style="padding:15px 20px; font-size:15px; color:#d16666; border-top:1px solid #e4e9f0;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td width="40" valign="top" align="center" style="padding-right:15px;">
-                          <img src="images/overdue.png" alt="Gutters" width="36"
-                            style="display:block; border:0; outline:none; text-decoration:none;">
-                        </td>
-                        <td valign="middle" style="font-size:15px; color:#d16666;">
-                          <strong>Clean Gutters</strong> – Overdue by 3 days
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
-                <!-- Example Task Row 3 -->
-                <tr>
-                  <td style="padding:15px 20px; font-size:15px; color:#475567; border-top:1px solid #e4e9f0;">
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td width="40" valign="top" style="padding-right:15px;">
-                          <img src="images/smoke.png" alt="Smoke Detector" width="40"
-                            style="display:block; border:0; outline:none; text-decoration:none;">
-                        </td>
-                        <td valign="middle" style="font-size:15px; color:#475567;">
-                          <strong>Test Smoke Detectors</strong> – Due: Oct 1, 2025
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-
-              </table>
-            </td>
-          </tr>
-
-
-          <!-- Feature Highlight -->
+          <!-- Tip Section -->
           <tr>
             <td
               style="background:#eef4f2; border-radius:10px; padding:25px; text-align:center; color:#475567; font-size:15px; line-height:22px;">
-              ✨ Did you know?<br>
-              AllProperly not only reminds you of tasks but also helps you <strong>plan ahead</strong> with savings
-              calculators and <strong>forecast when big systems (like your roof or HVAC)</strong> may need replacing.
-            </td>
-          </tr>
-
-          <!-- CTA Button -->
-          <tr>
-            <td align="center" style="padding:25px 20px 20px;">
-              <a href="https://app.allproperly.com/dashboard" target="_blank"
-                style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
-                Review All Tasks →
-              </a>
+              💡 Pro tip: Regular upkeep helps maintain property value.<br>
+              Use AllProperly to track maintenance and forecast long-term repairs with confidence.
             </td>
           </tr>
 
           <!-- Footer -->
           <tr>
             <td align="center" style="color:#475567; font-size:14px; line-height:22px; padding:20px;">
-              You’re receiving this task digest from AllProperly.com to help you stay on top of property maintenance.
+              You’re receiving this weekly summary from AllProperly.com to help you stay organized and proactive.
             </td>
           </tr>
           <tr>
@@ -198,14 +314,15 @@
               <a href="#" target="_blank" style="color:#6A8976; text-decoration:none;">Unsubscribe</a>
             </td>
           </tr>
-
         </table>
-        <!-- End Container -->
-
       </td>
     </tr>
+
   </table>
-  <!-- End Wrapper -->
+
+  </td>
+  </tr>
+  </table>
 
 </body>
 
